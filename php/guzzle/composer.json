@@ -1,0 +1,22 @@
+{
+    "name": "16yun/api-proxy-guzzle",
+    "description": "16YUN API Proxy Demo with Guzzle",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Y16Yun\\ApiProxy\\": "src/"
+        }
+    },
+    "scripts": {
+        "start": "php main.php"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
