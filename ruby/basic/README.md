@@ -1,6 +1,6 @@
 # Ruby Basic API代理示例
 
-演示使用 Ruby 原生 Net::HTTP 通过 API 提取模式使用代理 IP。
+演示使用 Ruby HTTParty 通过 API 提取模式使用代理 IP。
 
 ## 功能特性
 - 支持 API 提取链接对接
@@ -9,7 +9,7 @@
 
 ## 环境要求
 - Ruby 2.6+
-- 依赖库: httparty (可选，本示例使用原生库配合 minimal 依赖)
+- 依赖库: httparty（必需，见 Gemfile）
 
 ## 环境变量配置
 | 变量名 | 默认值 | 说明 |
@@ -18,9 +18,12 @@
 | TARGET_URL | https://httpbin.org/ip | 目标验证 URL |
 
 ## 运行方式
+
+以下命令从对应独立仓库根目录执行；使用总仓库 `demo-sdk` 时，先执行 `cd api-proxy`。
+
 ```bash
 # 1. 进入目录
-cd api-proxy/ruby/basic
+cd ruby/basic
 
 # 2. 安装依赖
 bundle install

@@ -1,6 +1,6 @@
 # PHP Basic API代理示例
 
-演示使用 PHP 原生 cURL 通过 API 提取模式使用代理 IP。
+演示使用 PHP Guzzle 通过 API 提取模式使用代理 IP。
 
 ## 功能特性
 - 支持 API 提取链接对接
@@ -9,7 +9,7 @@
 
 ## 环境要求
 - PHP 8.0+
-- 依赖库: cURL 扩展
+- 依赖库: Guzzle 7+（通过 Composer 安装，见 composer.json）
 
 ## 环境变量配置
 | 变量名 | 默认值 | 说明 |
@@ -18,9 +18,12 @@
 | TARGET_URL | https://httpbin.org/ip | 目标验证 URL |
 
 ## 运行方式
+
+以下命令从对应独立仓库根目录执行；使用总仓库 `demo-sdk` 时，先执行 `cd api-proxy`。
+
 ```bash
 # 1. 进入目录
-cd api-proxy/php/basic
+cd php/basic
 
 # 2. 安装依赖
 composer install

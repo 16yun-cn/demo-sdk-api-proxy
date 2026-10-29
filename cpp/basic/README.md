@@ -18,14 +18,17 @@
 | TARGET_URL | https://httpbin.org/ip | 目标验证 URL |
 
 ## 运行方式
+
+以下命令从对应独立仓库根目录执行；使用总仓库 `demo-sdk` 时，先执行 `cd api-proxy`。
+
 ```bash
 # 1. 进入目录
-cd api-proxy/cpp/basic
+cd cpp/basic
 
 # 2. 编译
 make
 
 # 3. 运行
 export EXTRACT_URL="http://..."
-./api_proxy
+./main
 ```
