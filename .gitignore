@@ -9,7 +9,7 @@ vendor/
 target/
 out/
 .gradle/
-bin/
+/csharp/*/bin/
 obj/
 .build/
 .swiftpm/
