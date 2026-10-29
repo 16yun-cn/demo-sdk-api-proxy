@@ -1,4 +1,6 @@
 ## API Proxy · PHP
 
-- basic: see `php-demo/api/`
+- [basic](basic/README.md)
+- [guzzle](guzzle/README.md)
 
+[产品接入说明](../README.md)

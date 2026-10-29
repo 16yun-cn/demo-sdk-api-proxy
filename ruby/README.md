@@ -1,4 +1,6 @@
 ## API Proxy · Ruby
 
-- basic: see `ruby-demo/api/`
+- [basic](basic/README.md)
+- [faraday](faraday/README.md)
 
+[产品接入说明](../README.md)

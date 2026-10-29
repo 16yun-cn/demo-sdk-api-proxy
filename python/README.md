@@ -1,5 +1,7 @@
 ## API Proxy · Python
 
-- requests: see `python-demo/api_requests/`
-- urllib: see `python-demo/api_urllib/`
+- [httpx](httpx/README.md)
+- [requests](requests/README.md)
+- [urllib](urllib/README.md)
 
+[产品接入说明](../README.md)

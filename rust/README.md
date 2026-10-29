@@ -1,4 +1,5 @@
 ## API Proxy · Rust
 
-- reqwest: see `rust-demo/api/`
+- [reqwest](reqwest/README.md)
 
+[产品接入说明](../README.md)
