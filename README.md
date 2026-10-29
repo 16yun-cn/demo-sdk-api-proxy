@@ -50,8 +50,8 @@ JSON 中的 `ip`、`port` 用于连接代理；`remote_ip` 表示目标站所见
 | [C++](cpp/README.md) | [basic](cpp/basic/README.md) |
 | [C#](csharp/basic/README.md) | [basic](csharp/basic/README.md) |
 | [Go](golang/basic/README.md) | [basic](golang/basic/README.md) |
-| [Java](java/basic/README.md)（暂无源码） | [basic](java/basic/README.md)（暂无源码）、[okhttp](java/okhttp/README.md)（暂无源码） |
-| [Kotlin](kotlin/basic/README.md)（暂无源码） | [basic](kotlin/basic/README.md)（暂无源码）、[okhttp](kotlin/okhttp/README.md)（暂无源码） |
+| [Java](java/basic/README.md) | [basic](java/basic/README.md)、[okhttp](java/okhttp/README.md) |
+| [Kotlin](kotlin/basic/README.md) | [basic](kotlin/basic/README.md)、[okhttp](kotlin/okhttp/README.md) |
 | [Node.js](nodejs/README.md) | [axios](nodejs/axios/README.md)、[basic](nodejs/basic/README.md) |
 | [PHP](php/README.md) | [basic](php/basic/README.md)、[guzzle](php/guzzle/README.md) |
 | [Python](python/README.md) | [httpx](python/httpx/README.md)、[requests](python/requests/README.md)、[urllib](python/urllib/README.md) |
